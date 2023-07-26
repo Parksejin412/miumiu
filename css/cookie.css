@@ -1,0 +1,48 @@
+@charset "UTF -8 " ;
+*{margin: 0; padding: 0;}
+
+.notice{
+    position: fixed;
+    top: 400px; left:50px;
+    padding: 40px;
+    background: url(../img/cookibg.jpg) no-repeat;
+    background-size:cover;
+    width: 350px; height: 300px;
+    z-index: 200;
+}
+.notice span{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+.notice p{
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 14px;
+}
+.notice .close{
+    position: absolute;
+    color: #000;
+    top:0; right: 0;
+    margin: 3px 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.notice input,
+.notice label{
+   position: absolute;
+   top: 70%; 
+}
+.notice label{
+    left: 120px;
+}
+.notice input{
+    left: 100px;
+    width: 15px;
+    height: 27px;
+}
